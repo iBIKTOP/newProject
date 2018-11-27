@@ -2,7 +2,6 @@
 import React, { Component } from "react";
 import {getLocation} from "../services/locationService";
 import Search from './Search';
-import getUserLocation from "../services/searchService"
 
 import '../styles/App.css';
 
