@@ -24,7 +24,7 @@ class Search extends React.Component {
     render() {
         return (
             <div>
-                <button name="button" type="button" className='btn btn-outline-info' onClick={this.onSearch} >Поиск ближайших мест</button>
+                <button name="button" type="button" className='btn btn-outline-info' onClick={this.onSearch} >Поиск</button>
                 <div className="list-group">
                     <Message data={this.state}/>
                     {/* <p>Вариантов ответа: {this.state.places.length}, радиус: {this.state.radius}</p> */}
